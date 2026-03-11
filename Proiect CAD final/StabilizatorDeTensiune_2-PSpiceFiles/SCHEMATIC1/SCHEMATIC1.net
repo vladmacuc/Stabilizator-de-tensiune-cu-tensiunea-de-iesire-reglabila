@@ -1,0 +1,18 @@
+* source STABILIZATORDETENSIUNE_2
+Q_Q1         N07962 N07920 OUT Q2N2222
+X_U1A         N08086 N08172 IN 0 N07962 LM358
+R_R2         N07920 OUT R_R2 0.33 TC=0,0 
+.model        R_R2 RES R=1 DEV=5% TC1=0 TC2=0
+R_R5         0 OUT R_R5 11 TC=0,0 
+.model        R_R5 RES R=1 DEV=5% TC1=0 TC2=0
+Q_Q2         IN N07962 N07920 Q2N3055
+X_P         N08074 N08172 N08252 POT PARAMS: SET={set} VALUE=1k
+R_R3         N08074 OUT R_R3 11k TC=0,0 
+.model        R_R3 RES R=1 DEV=5% TC1=0 TC2=0
+D_D1         0 N08086 D1N4733 
+R_R4         0 N08252 R_R4 3.6k TC=0,0 
+.model        R_R4 RES R=1 DEV=5% TC1=0 TC2=0
+R_R1         N08086 IN R_R1 1k TC=0,0 
+.model        R_R1 RES R=1 DEV=5% TC1=0 TC2=0
+V_V1         IN 0 27V
+.PARAM  set=0.5

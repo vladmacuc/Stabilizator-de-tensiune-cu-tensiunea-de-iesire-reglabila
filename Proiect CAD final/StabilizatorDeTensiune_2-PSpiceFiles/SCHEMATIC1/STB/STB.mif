@@ -1,0 +1,6 @@
+ lib=c:\cadence\orcadx_24.1\tools\PSpice\Library\diode.lib, offset=586974, size=307
+ lib=c:\cadence\orcadx_24.1\tools\PSpice\Library\bipolar.lib, offset=13005, size=562
+ lib=c:\cadence\orcadx_24.1\tools\PSpice\Library\pwrbjt.lib, offset=5229, size=806
+ lib=c:\cadence\orcadx_24.1\tools\PSpice\Library\opamp.lib, offset=54585, size=371
+ lib=c:\cadence\orcadx_24.1\tools\PSpice\Library\breakout.lib, offset=8241, size=133
+ lib=c:\cadence\orcadx_24.1\tools\PSpice\Library\opamp.lib, offset=53165, size=1419
